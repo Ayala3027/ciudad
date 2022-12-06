@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkolivegreen;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 70PX;
+
+    
+}
+.container input{
+    padding: 10px;
+    margin: 10px;
+
+}
+.input{
+    width: 300px;
+    font-size: 15px;
+}
+.input:hover{
+    background-color: rgb(163, 167, 172);
+}
+.nav-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end ;
+
+}
+.btn-inicio{
+    background-color: azure;
+    width: 200px;
+    padding: 10;
+    font-size: 15px;
+}
