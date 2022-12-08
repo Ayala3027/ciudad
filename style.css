@@ -56,8 +56,9 @@
     margin-right: 5px;
 }
 .container .menu a:hover{
-    border-bottom: 2px solid #c7c7c7;
+    border-bottom: 2px solid #bbbbbb;
     padding-bottom: 5px;
+    color: lightgoldenrodyellow;
 }
 
 #btn-menu{
@@ -113,20 +114,20 @@
     cursor: pointer;
     font-size: 18px;
 }
+.caja{
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 150px;
+}
 
-
-.container-pro{
+.card{
     display: flex;
-    flex-direction:row;
+    flex-wrap: wrap ;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 300px;
-    gap: 30px;
-    
-}
-.card{
     width: 200px;
     height: 200px;
     background-color: whitesmoke;
-    padding: 10px;
 }

@@ -8,21 +8,48 @@
     <link rel="stylesheet" href="registro.css">
 </head>
 <body>
-    <h1>Registro</h1>
+    <div class="logo">
+        <img src="" alt="logo">
+        <h1>Registro</h1>
+    </div>
+    
     <div class="container">
-        <table class="table1">
-            <input name="Nombre" class="input" id="" type="text" placeholder="Nombre">
-            <input name="Apellido" class="input" id="" type="text" placeholder="Apellido">
-            <input name="Ciudad" class="input" id="" type="text" placeholder="Ciudad">
-            <input name="Celular" class="input" id="" type="text" placeholder="Celular">
-            <input name="Enviar" class="enviar" id="" type="button" value="Enviar">
-        </table>
+        <form  name="form" id="form" action="">
+            <div class="container1">
+                <h4>Nombre</h4>
+                <input name="nombre" class="nombre" id="nombre" type="text" placeholder="Pepito">
+                <p class="" id="pnombre"></p>
+            </div>
+            <div class="container1">
+                <h4>Apellido</h4>
+                <input name="apellido" class="apellido" id="apellido" type="text" placeholder="Perez">
+                <p class="" id="papellido"></p>
+            </div>
+            <div class="container1">
+                <h4>Documento</h4>
+                <input name="documento" class="documento" id="documento" type="text" placeholder="1234567">
+                <p class="" id="pdocumento"></p>
+            </div>
+            <div class="container1">
+                <h4>Email</h4>
+                <input name="email" class="email" id="email" type="text" placeholder="Email@gmail.com">
+                <p class="" id="pcorreo"></p>
+            </div>
+            <div class="container1">
+                <h4>Teléfono</h4>
+                <input name="tel" class="tel" id="tel" type="text" placeholder="123456">
+                <p class="" id="ptel"></p>
+            </div>
+
+            <input name="enviar" class="enviar" id="" type="submit" value="Enviar">
+        </form>
         
     </div>
     
-
-    <nav class="nav-inicio">
+<div class="container">
         <a class="btn-inicio" href="index.html">Inicio</a>
-    </nav>
+</div>
+
+<script src="registro.js"></script>
 </body>
 </html>

@@ -1,42 +1,34 @@
 body{
+    background-color: darkolivegreen;
     margin: 0;
     padding: 0;
-    background-color: darkolivegreen;
+    box-sizing: border-box;
 }
 h1{
     text-align: center;
+    text-transform:uppercase ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    width: 600px;
+    margin-left: 450px;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform:uppercase ;
 }
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    padding: 70PX;
-
-    
 }
-.container input{
+input{
+    padding: 4px;
+}
+.enviar{
     padding: 10px;
-    margin: 10px;
-
-}
-.input{
-    width: 300px;
-    font-size: 15px;
-}
-.input:hover{
-    background-color: rgb(163, 167, 172);
-}
-.nav-inicio{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-end ;
-
-}
-.btn-inicio{
-    background-color: azure;
+    margin: 20px;
+    margin-left: -13px;
     width: 200px;
-    padding: 10;
     font-size: 15px;
 }
